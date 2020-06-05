@@ -1,0 +1,185 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+.header {
+	background-image: url(../img/head.png);
+    width: 1519px;
+    height: 250px;
+    text-align: center;
+}
+
+.menu_bg {
+    list-style: none;
+}
+
+.menu {
+    background-color: #9400D3;
+    text-align: center;
+    padding: 15px;
+    box-shadow: inset 0px 0px 15px #F0FFFF;
+    
+}
+
+.menu li {
+    display: inline;
+    white-space: pre; 
+}
+
+.menu li a {
+	color: #87CEFA;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu span:hover {
+   color: #EE82EE;
+}
+
+ul.menu  li.selected span {
+   color: #EE82EE;	
+}
+
+.main_info {
+	background-attachment: fixed;
+	background-image: url(../img/fon.jpg);
+	background-size: 100%;
+	width: 100%;
+	padding-top: 8em;
+	padding-bottom: 8em;
+	min-height: 30em;
+	}
+
+.infoblock {
+	margin-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid #333;
+	margin-left: auto;
+    margin-right: auto;
+    width: 76em;   
+    margin-bottom: auto;
+    height: auto;
+    border-radius: 6px;
+    padding: 2em;
+}
+
+.sidebar {
+	float: right;
+	background-image: url(../img/form.jpg);
+	width: 16em;
+	padding: 2em;
+	border: solid 1px #9400D3;
+	border-radius: 3px;
+}
+
+/* reviews */
+
+.post {
+	text-align: center;
+	width: 40em;
+	padding: 2em;
+	background-color: rgba(135, 206, 250, 1);
+	border: 1px solid #EE82EE;
+	margin-left: 14em;
+	border-radius: 5px;
+}
+
+.post textarea {
+    outline: none;
+	border: none;
+	width: 36em;
+	min-height: 12em;
+	border: solid 1px #9400D3;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+}
+
+.post textarea:hover {
+    border: solid 1px #1E90FF;
+}
+
+.post input {
+    outline: none;
+	border: none;
+    width: 36em;
+	min-height: 2em;
+	background-color: #fff;
+	border: solid 1px #9400D3;
+	border-radius: 3px;	
+	margin-bottom: 1em;
+	font-family: 'Pacifico', cursive;
+}
+
+.post input:hover {
+    border: solid 1px #1E90FF;	
+}
+
+.post button {
+	cursor: pointer;
+	margin-top: 1em;
+	background-color: #1E90FF;
+	border: solid 1px #9400D3;
+	padding: 1em;
+	border-radius: 3em;
+	color: #9400D3;
+	font-family: 'Pacifico', cursive;
+}
+
+.post button:hover {
+	background-color: #fff;
+	border: #1E90FF; 
+	color: #1E90FF;
+	box-shadow: inset 0 0 15px #1E90FF;
+}
+
+	/* catalog */
+
+.sidebar_catalog table img {
+	width: 12em;
+	border-radius: 5px;
+	border: solid 1px #EE82EE;
+}
+
+.sidebar_catalog table td {
+	border: solid 2px #87CEFA;
+	border-radius: 8px;
+	width: 330px;
+	text-align: center;
+	padding: 12px;	
+    font-family: 'Pacifico', cursive;
+    color: #000;
+}
+
+.sidebar_catalog table td a {
+    text-decoration: none;
+    color: #EE82EE;
+}
+
+.sidebar_catalog table td a:hover {
+	color: #87CEFA;
+}
+
+/* contacts */
+
+.contacts {
+	font-size: 1.8em;
+	font-family: 'Pacifico', cursive;
+	color: #EE82EE;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: #87CEFA;
+}
+
+.contacts a:hover {
+color: #1E90FF;
+}
+
+.contacts span {
+	text-decoration: none;
+	color: #87CEFA;
+}
